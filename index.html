@@ -1,13 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+
+    <!-- 바꾸기: 기본 타이틀/디스크립션 -->
+    <title>Today Eat — 뭐 쳐먹지? 랜덤 추천</title>
+    <meta name="description" content="오늘 뭐 먹을지 고민될 때 한 번에 뽑아주는 Today Eat 🍽️" />
+
+    <!-- Open Graph: 카톡/페북 미리보기용 (절대경로 필수) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Today Eat — 뭐 먹지? 랜덤 추천" />
+    <meta property="og:description" content="핸드폰에서도 잘 보이는 SPA. 한 번에 메뉴 뽑기!" />
+    <meta property="og:url" content="https://today-eat-henna.vercel.app/" />
+    <meta property="og:image" content="https://today-eat-henna.vercel.app/og-image.png" />
+
+    <!-- 트위터 카드(선택) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Today Eat — 뭐 쳐먹지? 랜덤 추천" />
+    <meta name="twitter:description" content="한 번에 메뉴 뽑기!" />
+    <meta name="twitter:image" content="https://today-eat-henna.vercel.app/og-image.png" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
